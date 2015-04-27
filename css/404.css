@@ -1,0 +1,75 @@
+body {
+  font-family: Helvetica, Tahoma, Arial, "Microsoft YaHei", "微软雅黑", SimSun, "宋体", STXihei, "华文细黑", Heiti, "黑体", sans-serif;
+  font-size: 1em;
+  padding: 0;
+  margin: 0;
+}
+body a {
+  text-decoration: none;
+  color: #4183c4;
+}
+body :hover {
+  text-decoration: underline;
+}
+body img[src^="http//eiv.baidu.com/"] {
+  display: none;
+}
+img {
+  max-width: 100%;
+/*display block*/
+/*margin auto*/
+}
+#maintao-logo {
+  font-family: Helvetica, Arial, sans-serif;
+/*color #c87f7f*/
+  margin: auto;
+  margin-top: 10%;
+  text-align: center;
+  left: 0;
+  right: 0;
+  width: 100%;
+  display: table;
+  color: #fcfcfc;
+  font-size: 5em;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+.posts-wrapper {
+  width: 100%;
+}
+.posts-wrapper .posts {
+  display: block;
+  margin: auto;
+  text-align: left;
+  width: 360px;
+  list-style: none;
+  line-height: 1.7em;
+  margin-bottom: 70px;
+  margin-top: 20px;
+}
+.posts-wrapper .posts .date {
+  margin-left: 5px;
+  margin-right: 14px;
+  color: #888;
+  width: 56px;
+  text-indent: 2px;
+  display: inline-block;
+  font-family: Consolas, "Courier New", Courier, Monaco, Menlo, monospace;
+}
+.posts-wrapper .posts .date .day {
+  margin-left: -0.3em;
+}
+.year-split {
+  width: 110%;
+  position: relative;
+  left: -5%;
+  margin: 20px 0;
+  font-family: Consolas, "Courier New", Courier, Monaco, Menlo, monospace;
+  color: #888;
+  text-align: center;
+}
+.year-split .line {
+  margin-top: -3px;
+  height: 1px;
+  background: linear-gradient(to right, transparent, #888 30%, #888 70%, transparent);
+}
