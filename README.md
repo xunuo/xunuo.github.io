@@ -4,3 +4,5 @@
 > 子域名如blog.xunuo.com需要在project中单独书写CNAME。
 
 > 此项目名特殊({用户名}.github.io)，专为gitpage使用，master直接作用为gitpage，没有gh-pages分支，其它项目则需要在setting中使用gitpage创建器创建，请参照 https://github.com/xunuo/ai/tree/gh-pages 。
+
+> 404.html 会共享给所有项目404状态页。
