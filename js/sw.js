@@ -1,4 +1,4 @@
-importScripts('js/sw-cache-polyfill.js'); 
+importScripts('/js/sw-cache-polyfill.js'); 
 
 var CACHE_NAME = 'my-site-cache-v2';
 var urlsToCache = [
