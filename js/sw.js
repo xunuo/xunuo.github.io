@@ -14,12 +14,15 @@ self.addEventListener('install', function(event) {
   );
 });
 
-self.addEventListener('fetch', function(event) {
-  event.respondWith(
-    caches.match(event.request).then(function(response) {
-      return response || new Response("Nothing in the cache for this request");
-    })
-  );
+self.addEventListener("fetch",function(event){
+    event.respondWith(
+        caches.match(event.request).then(function(response){
+            //缓存响应
+            if(response)
+                return response;
+            return fetch(event.request);
+        })
+    )
 });
 
 
