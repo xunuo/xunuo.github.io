@@ -9,7 +9,7 @@ var urlsToCache = [
 self.addEventListener('install', function(event) {
   event.waitUntil(
     caches.open('demo-cache').then(function(cache) {
-      return cache.put('/', new Response("From the cache!"));
+      return cache.put('/js/index.js', new Response("From the cache!"));
     })
   );
 });
