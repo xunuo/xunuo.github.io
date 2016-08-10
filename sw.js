@@ -3,7 +3,8 @@ importScripts('./sw-cache-polyfill.js');
 var CACHE_NAME = 'my-site-cache-v5';
 var urlsToCache = [
     '/',
-    '/js/index.js'
+    '/js/index.js',
+    'https://u.alicdn.com/mobile/g/common/apollo/1.2.3/??apollo.css?t=5593144b_95c2cf954'
 ];
 
 // example usage:
