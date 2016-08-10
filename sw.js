@@ -1,8 +1,9 @@
 importScripts('./sw-cache-polyfill.js'); 
 
-var CACHE_NAME = 'my-site-cache-v3';
+var CACHE_NAME = 'my-site-cache-v5';
 var urlsToCache = [
-  './js/index.js'
+    '/',
+    '/js/index.js'
 ];
 
 // example usage:
