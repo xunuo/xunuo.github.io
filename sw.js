@@ -1,15 +1,15 @@
-importScripts('/js/sw-cache-polyfill.js'); 
+importScripts('./sw-cache-polyfill.js'); 
 
 var CACHE_NAME = 'my-site-cache-v2';
 var urlsToCache = [
-  '/js/index.js'
+  './index.js'
 ];
 
 // example usage:
 self.addEventListener('install', function(event) {
   event.waitUntil(
     caches.open('demo-cache').then(function(cache) {
-      return cache.put('/js/index.js', new Response("From the cache!"));
+      return cache.put('./index.js', new Response("From the cache!"));
     })
   );
 });
