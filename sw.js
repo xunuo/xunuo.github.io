@@ -1,6 +1,6 @@
 importScripts('./sw-cache-polyfill.js'); 
 
-var CACHE_NAME = 'my-site-cache-v2';
+var CACHE_NAME = 'my-site-cache-v3';
 var urlsToCache = [
   './js/index.js'
 ];
@@ -8,8 +8,9 @@ var urlsToCache = [
 // example usage:
 self.addEventListener('install', function(event) {
   event.waitUntil(
-    caches.open('demo-cache').then(function(cache) {
-      return cache.put('./js/index.js', new Response("From the cache!"));
+    caches.open(CACHE_NAME).then(function(cache) {
+      //return cache.put('./js/index.js', new Response("From the cache!"));
+      return cache.addAll(urlsToCache);
     })
   );
 });
