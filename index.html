@@ -5,15 +5,7 @@
     <meta charset='utf-8'>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Xunuo's HOMEPAGE">
-    <script>
-    var _hmt = _hmt || [];
-    (function() {
-      var hm = document.createElement("script");
-      hm.src = "https://hm.baidu.com/hm.js?560724a0c73e148626d524e4b642cc5b";
-      var s = document.getElementsByTagName("script")[0]; 
-      s.parentNode.insertBefore(hm, s);
-    })();
-    </script>
+    <link rel="amphtml" href="https://xunuo.com/amp/index.html" />
   </head>
 
   <body>
@@ -23,17 +15,15 @@
       <hr />
   
       <script>
-        /*
-            if ('serviceWorker' in navigator) {
-              navigator.serviceWorker.register('./sw.js?v=13').then(function(registration) {
-                // Registration was successful
-                console.log('ServiceWorker registration successful with scope: ',    registration.scope);
-              }).catch(function(err) {
-                // registration failed :(
-                console.log('ServiceWorker registration failed: ', err);
-              });
-            }
-          */
+        if ('serviceWorker' in navigator) {
+          navigator.serviceWorker.register('./sw.js?v=13').then(function(registration) {
+            // Registration was successful
+            console.log('ServiceWorker registration successful with scope: ',    registration.scope);
+          }).catch(function(err) {
+            // registration failed :(
+            console.log('ServiceWorker registration failed: ', err);
+          });
+        }
       </script>
   
       <script src="/js/index.js"></script>
