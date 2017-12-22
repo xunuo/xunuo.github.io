@@ -23,7 +23,7 @@
 }
 .doc-article-inner html * {
   font-family: "Lucida Bright","monospace","Monaco","SF Pro Icons","Helvetica Neue","Helvetica","Arial","Roboto","Lantinghei SC","Lantinghei TC","Microsoft YaHei","ff-din-web-pro-1", "ff-din-web-pro-2", sans-serif;
-  font-size: 18px;
+  font-size: 18px !important;
   line-height: 1.68;
   font-style: normal;
   -webkit-font-smoothing: antialiased;
@@ -103,6 +103,12 @@
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
+.doc-article-inner img.emoji{
+  box-shadow:none !important;
+  border:none !important;
+}
+
 .doc-article-inner h1 img,
 .doc-article-inner h2 img,
 .doc-article-inner h3 img,
