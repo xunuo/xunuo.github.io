@@ -1,0 +1,369 @@
+.doc-article-inner {
+  /*blockquote p strong:nth-child(3){
+    display: block;
+  }*/
+}
+.doc-article-inner h1,
+.doc-article-inner h2,
+.doc-article-inner h3,
+.doc-article-inner h4,
+.doc-article-inner h5,
+.doc-article-inner h6,
+.doc-article-inner p,
+.doc-article-inner blockquote,
+.doc-article-inner ol,
+.doc-article-inner ul,
+.doc-article-inner li,
+.doc-article-inner img {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+.doc-article-inner html * {
+  font-family: "Lucida Bright","monospace","Monaco","SF Pro Icons","Helvetica Neue","Helvetica","Arial","Roboto","Lantinghei SC","Lantinghei TC","Microsoft YaHei","ff-din-web-pro-1", "ff-din-web-pro-2", sans-serif;
+  font-size: 18px;
+  line-height: 1.68;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.doc-article-inner body {
+  background: #fff;
+  margin: 40px 70px;
+}
+.doc-article-inner p {
+  font-weight: lighter;
+  margin-bottom: 24px;
+  line-height: 28px;
+}
+.doc-article-inner strong {
+  font-weight: bold;
+}
+.doc-article-inner ol,
+.doc-article-inner ul {
+  list-style-type: decimal;
+  margin-left: 2em;
+  margin-bottom: 24px;
+}
+.doc-article-inner ul ul {
+  list-style-type: square;
+}
+.doc-article-inner ul ul,
+.doc-article-inner ol ol,
+.doc-article-inner ul ol,
+.doc-article-inner ol ul {
+  margin-top: 10px;
+}
+.doc-article-inner li {
+  margin-bottom: 10px;
+}
+.doc-article-inner h1,
+.doc-article-inner h2,
+.doc-article-inner h3,
+.doc-article-inner h4,
+.doc-article-inner h5,
+.doc-article-inner h6 {
+  font-weight: lighter;
+  text-transform: capitalize;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.doc-article-inner h1 {
+  font-size: 20px;
+  line-height: 24px;
+  border-bottom-width: px !important;
+}
+.doc-article-inner h2 {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: bold;
+}
+.doc-article-inner h3 {
+  font-size: 16px;
+  line-height: 22px;
+  border-left: 4px solid #4984EF;
+  font-weight: bold;
+  padding-left: 10px;
+}
+.doc-article-inner h4 {
+  font-size: 16px;
+  line-height: 20px;
+}
+.doc-article-inner h5 {
+  font-size: 16px;
+  line-height: 18px;
+}
+.doc-article-inner h6 {
+  font-size: 16px;
+  line-height: 18px;
+}
+.doc-article-inner img {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.doc-article-inner h1 img,
+.doc-article-inner h2 img,
+.doc-article-inner h3 img,
+.doc-article-inner h4 img,
+.doc-article-inner h5 img,
+.doc-article-inner h6 img,
+.doc-article-inner p img {
+  margin-bottom: 0;
+}
+.doc-article-inner pre {
+  margin-bottom: 18px;
+}
+.doc-article-inner pre,
+.doc-article-inner code {
+  font-family: 'Source Code Pro',Menlo;
+}
+.doc-article-inner pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  padding: 10px;
+  margin-left: 16px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+}
+.doc-article-inner blockquote {
+  background: #fff;
+  border-left: 4px solid #CCD0D6;
+  padding: 0 10px;
+  margin-left: 16px;
+}
+.doc-article-inner blockquote > :first-child {
+  margin-top: 0;
+}
+.doc-article-inner blockquote > :last-child {
+  margin-bottom: 15px;
+}
+.doc-article-inner p {
+  padding-left: 16px;
+}
+.doc-article-inner blockquote p {
+  padding-left: 0;
+  line-height: 28px;
+  margin-bottom: 16px;
+}
+.doc-article-inner li p {
+  padding-left: 0;
+}
+.doc-article-inner li blockquote {
+  margin-left: 0;
+}
+.doc-article-inner blockquote p strong {
+  font-size: normal;
+  color: #575F5E;
+  display: block;
+  width: 100%;
+}
+.doc-article-inner ol li > :first-child {
+  color: #495770;
+}
+.doc-article-inner h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  border-bottom: 2px solid;
+  padding-bottom: 6px;
+}
+.doc-article-inner h2 {
+  border-bottom: 2px solid;
+  padding-bottom: 6px;
+}
+.doc-article-inner h3,
+.doc-article-inner h4,
+.doc-article-inner h5,
+.doc-article-inner h6 {
+  border-bottom: none;
+}
+
+.doc-article-inner * {
+  color: #657b83;
+}
+
+.doc-article-inner h1,
+.doc-article-inner h2,
+.doc-article-inner h3,
+.doc-article-inner h4,
+.doc-article-inner h5,
+.doc-article-inner h6 {
+  color: #586e75;
+  border-color: #4984EF;
+}
+.doc-article-inner a,
+.doc-article-inner a:active,
+.doc-article-inner a:visited {
+  color: #586e75;
+}
+.doc-article-inner a:hover {
+  background-color: #eee8d5;
+}
+.doc-article-inner pre {
+  color: #586e75;
+  background: #fafafa;
+}
+.doc-article-inner a,
+.doc-article-inner a:active,
+.doc-article-inner a:visited,
+.doc-article-inner code.url {
+  color: #4984EF;
+}
+.doc-article-inner h1 {
+  color: #4984EF;
+  text-align: center;
+}
+.doc-article-inner h2,
+.doc-article-inner h3,
+.doc-article-inner h4,
+.doc-article-inner h5,
+.doc-article-inner h6 {
+  color: #4984EF;
+}
+
+@media print {
+  body {
+    margin: 0;
+  }
+
+  * {
+    color: #000 !important;
+  }
+}
+.doc-article-inner {
+  /*
+  
+  Orginal Style from ethanschoonover.com/solarized (c) Jeremy Hull <sourdrums@gmail.com>
+  
+  */
+  /* Solarized Green */
+  /* Solarized Cyan */
+  /* Solarized Blue */
+  /* Solarized Yellow */
+  /* Solarized Orange */
+  /* Solarized Red */
+  /* Solarized Violet */
+}
+.doc-article-inner table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-top: 0.8rem;
+  margin-bottom: 1.4rem;
+}
+.doc-article-inner tr {
+  background-color: #fff;
+  border-top: 1px solid #ccc;
+}
+.doc-article-inner th, .doc-article-inner td {
+  padding: 5px 14px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+.doc-article-inner img {
+  max-width: 100%;
+  -webkit-border-radius: 0.3em;
+  -moz-border-radius: 0.3em;
+  -ms-border-radius: 0.3em;
+  -o-border-radius: 0.3em;
+  border-radius: 0.3em;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0 1px 4px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.15) 0 1px 4px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0 1px 4px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: #fff 0.5em solid;
+}
+.doc-article-inner right {
+  display: block;
+  text-align: right;
+  margin-top: 10px;
+}
+.doc-article-inner .hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #eff4f8;
+  color: #657b83;
+  -webkit-text-size-adjust: none;
+}
+.doc-article-inner .hljs-comment,
+.doc-article-inner .diff .hljs-header,
+.doc-article-inner .hljs-doctype,
+.doc-article-inner .hljs-pi,
+.doc-article-inner .lisp .hljs-string {
+  color: #93a1a1;
+}
+.doc-article-inner .hljs-keyword,
+.doc-article-inner .hljs-winutils,
+.doc-article-inner .method,
+.doc-article-inner .hljs-addition,
+.doc-article-inner .css .hljs-tag,
+.doc-article-inner .hljs-request,
+.doc-article-inner .hljs-status,
+.doc-article-inner .nginx .hljs-title {
+  color: #859900;
+}
+.doc-article-inner .hljs-number,
+.doc-article-inner .hljs-command,
+.doc-article-inner .hljs-string,
+.doc-article-inner .hljs-tag .hljs-value,
+.doc-article-inner .hljs-rule .hljs-value,
+.doc-article-inner .hljs-doctag,
+.doc-article-inner .tex .hljs-formula,
+.doc-article-inner .hljs-regexp,
+.doc-article-inner .hljs-hexcolor,
+.doc-article-inner .hljs-link_url {
+  color: #2aa198;
+}
+.doc-article-inner .hljs-title,
+.doc-article-inner .hljs-localvars,
+.doc-article-inner .hljs-chunk,
+.doc-article-inner .hljs-decorator,
+.doc-article-inner .hljs-built_in,
+.doc-article-inner .hljs-identifier,
+.doc-article-inner .vhdl .hljs-literal,
+.doc-article-inner .hljs-id,
+.doc-article-inner .css .hljs-function,
+.doc-article-inner .hljs-name {
+  color: #268bd2;
+}
+.doc-article-inner .hljs-attribute,
+.doc-article-inner .hljs-variable,
+.doc-article-inner .lisp .hljs-body,
+.doc-article-inner .smalltalk .hljs-number,
+.doc-article-inner .hljs-constant,
+.doc-article-inner .hljs-class .hljs-title,
+.doc-article-inner .hljs-parent,
+.doc-article-inner .hljs-type,
+.doc-article-inner .hljs-link_reference {
+  color: #4984EF;
+}
+.doc-article-inner .hljs-preprocessor,
+.doc-article-inner .hljs-preprocessor .hljs-keyword,
+.doc-article-inner .hljs-pragma,
+.doc-article-inner .hljs-shebang,
+.doc-article-inner .hljs-symbol,
+.doc-article-inner .hljs-symbol .hljs-string,
+.doc-article-inner .diff .hljs-change,
+.doc-article-inner .hljs-special,
+.doc-article-inner .hljs-attr_selector,
+.doc-article-inner .hljs-subst,
+.doc-article-inner .hljs-cdata,
+.doc-article-inner .css .hljs-pseudo,
+.doc-article-inner .hljs-header {
+  color: #cb4b16;
+}
+.doc-article-inner .hljs-deletion,
+.doc-article-inner .hljs-important {
+  color: #dc322f;
+}
+.doc-article-inner .hljs-link_label {
+  color: #6c71c4;
+}
+.doc-article-inner .tex .hljs-formula {
+  background: #d6e4f0;
+}
