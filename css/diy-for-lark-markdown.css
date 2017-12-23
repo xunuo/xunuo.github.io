@@ -1,8 +1,9 @@
-.doc-article-inner {
-  /*blockquote p strong:nth-child(3){
-    display: block;
-  }*/
+
+.doc-article-inner p, .doc-article-inner li, .doc-article-inner ul{
+  font-size:18px !important;
+  font-weight:300 !important;
 }
+
 .doc-article-inner h1,
 .doc-article-inner h2,
 .doc-article-inner h3,
