@@ -41,6 +41,9 @@
   /**
    * Colorful code
    **/
+  /**
+   * only for lark
+   **/
   /* END & Thank you! */
 }
 .doc-article-inner h1, .doc-article-inner h2, .doc-article-inner h3, .doc-article-inner h4, .doc-article-inner h5, .doc-article-inner h6, .doc-article-inner p, .doc-article-inner blockquote, .doc-article-inner ol, .doc-article-inner ul, .doc-article-inner li, .doc-article-inner img {
@@ -254,4 +257,7 @@
 }
 .doc-article-inner .tex .hljs-formula {
   background: #d6e4f0 !important;
+}
+.doc-article-inner .typo-content .emoji {
+  border: none;
 }
