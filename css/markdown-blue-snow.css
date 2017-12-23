@@ -181,22 +181,15 @@ hr {
 }
 
 blockquote {
-  background: #fff;
-  border-left: 3px solid #a5a9af;
-  padding: 0 8px;
+  padding:16px 0 4px 0;
+  background: #f8f8f8;
+  border-left: 8px solid #e6e6e6;
   margin-left: 16px;
 }
 
-blockquote p {
-  padding-left: 0;
-  margin-bottom: 16px;
-}
-
-blockquote p strong {
-  font-size: inherit;
-  color: #575F5E;
-  display: block;
-  width: 100%;
+blockquote p{
+  padding: 0 12px;
+  color: #929b9a;
 }
 
 blockquote > :first-child {
@@ -239,13 +232,12 @@ pre {
 }
 
 pre,code {
-  font-family:"Source Code Pro", "Menlo";
-  color: #586e75;
+  font-family:"Monaco","Source Code Pro", "Menlo";
+  color: #859900;
   background: #fafafa;
 }
 
 pre {
-  white-space: pre;
   white-space: pre-wrap;
   word-wrap: break-word;
   padding: 10px;
@@ -253,6 +245,17 @@ pre {
   -webkit-border-radius: 3px;
   -moz-border-radius: 4px;
   border: 1px solid #E2E2E2;
+}
+
+code{
+  font-size: 16px;
+  display:block;
+  padding: 10px;
+  background: #eff4f8;
+}
+
+code span{
+  font-size: 16px;
 }
 
 code.url {
@@ -277,15 +280,15 @@ code.url {
 }
 
 .hljs-number,.hljs-command,.hljs-string,.hljs-tag .hljs-value,.hljs-rule .hljs-value,.hljs-doctag,.tex .hljs-formula,.hljs-regexp,.hljs-hexcolor,.hljs-link_url {
-  color: #2aa198;
+  color: #708400;
 }
 
 .hljs-title,.hljs-localvars,.hljs-chunk,.hljs-decorator,.hljs-built_in,.hljs-identifier,.vhdl .hljs-literal,.hljs-id,.css .hljs-function,.hljs-name {
-  color: #268bd2;
+  color: #2aa198;
 }
 
 .hljs-attribute,.hljs-variable,.lisp .hljs-body,.smalltalk .hljs-number,.hljs-constant,.hljs-class .hljs-title,.hljs-parent,.hljs-type,.hljs-link_reference {
-  color: #4984EF;
+  color: #26847b;
 }
 
 .hljs-preprocessor,.hljs-preprocessor .hljs-keyword,.hljs-pragma,.hljs-shebang,.hljs-symbol,.hljs-symbol .hljs-string,.diff .hljs-change,.hljs-special,.hljs-attr_selector,.hljs-subst,.hljs-cdata,.css .hljs-pseudo,.hljs-header {
@@ -301,7 +304,7 @@ code.url {
 }
 
 .tex .hljs-formula {
-  background: #d6e4f0;
+  background: #d6e4f0 !important;
 }
 
 /* END & Thank you! */
