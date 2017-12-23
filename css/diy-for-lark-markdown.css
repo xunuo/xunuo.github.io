@@ -104,7 +104,7 @@
   margin-bottom: 10px;
 }
 
-.doc-article-inner img.emoji{
+.doc-article-inner .emoji{
   box-shadow:none !important;
   border:none !important;
 }
