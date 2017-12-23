@@ -259,7 +259,7 @@
   background: #d6e4f0 !important;
 }
 .doc-article-inner .typo-content .emoji {
-  border: none;
+  border: none !important;
   margin-top:0 !important;
   margin-bottom:0 !important;
 }
