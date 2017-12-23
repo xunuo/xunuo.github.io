@@ -260,4 +260,6 @@
 }
 .doc-article-inner .typo-content .emoji {
   border: none;
+  margin-top:0 !important;
+  margin-bottom:0 !important;
 }
