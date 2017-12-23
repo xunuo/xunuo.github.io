@@ -187,22 +187,15 @@ hr {
 }
 
 blockquote {
-  background: #fff !important;
-  border-left: 3px solid #a5a9af !important;
-  padding: 0 8px !important;
+  padding:16px 0 4px 0 !important;
+  background: #f8f8f8 !important;
+  border-left: 8px solid #e6e6e6 !important;
   margin-left: 16px !important;
 }
 
-blockquote p {
-  padding-left: 0 !important;
-  margin-bottom: 16px !important;
-}
-
-blockquote p strong {
-  font-size: inherit !important;
-  color: #575F5E !important;
-  display: block !important;
-  width: 100% !important;
+blockquote p{
+  padding: 0 12px !important;
+  color: #929b9a !important;
 }
 
 blockquote > :first-child {
@@ -245,13 +238,12 @@ pre {
 }
 
 pre,code {
-  font-family:"Source Code Pro", "Menlo" !important;
-  color: #586e75 !important;
+  font-family:"Monaco","Source Code Pro", "Menlo" !important;
+  color: #859900 !important;
   background: #fafafa !important;
 }
 
 pre {
-  white-space: pre !important;
   white-space: pre-wrap !important;
   word-wrap: break-word !important;
   padding: 10px !important;
@@ -259,6 +251,17 @@ pre {
   -webkit-border-radius: 3px !important;
   -moz-border-radius: 4px !important;
   border: 1px solid #E2E2E2 !important;
+}
+
+code{
+  font-size: 16px !important;
+  display:block !important;
+  padding: 10px !important;
+  background: #eff4f8 !important;
+}
+
+code span{
+  font-size: 16px !important;
 }
 
 code.url {
@@ -283,15 +286,15 @@ code.url {
 }
 
 .hljs-number,.hljs-command,.hljs-string,.hljs-tag .hljs-value,.hljs-rule .hljs-value,.hljs-doctag,.tex .hljs-formula,.hljs-regexp,.hljs-hexcolor,.hljs-link_url {
-  color: #2aa198 !important;
+  color: #708400 !important;
 }
 
 .hljs-title,.hljs-localvars,.hljs-chunk,.hljs-decorator,.hljs-built_in,.hljs-identifier,.vhdl .hljs-literal,.hljs-id,.css .hljs-function,.hljs-name {
-  color: #268bd2 !important;
+  color: #2aa198 !important;
 }
 
 .hljs-attribute,.hljs-variable,.lisp .hljs-body,.smalltalk .hljs-number,.hljs-constant,.hljs-class .hljs-title,.hljs-parent,.hljs-type,.hljs-link_reference {
-  color: #4984EF !important;
+  color: #26847b !important;
 }
 
 .hljs-preprocessor,.hljs-preprocessor .hljs-keyword,.hljs-pragma,.hljs-shebang,.hljs-symbol,.hljs-symbol .hljs-string,.diff .hljs-change,.hljs-special,.hljs-attr_selector,.hljs-subst,.hljs-cdata,.css .hljs-pseudo,.hljs-header {
@@ -321,4 +324,3 @@ code.url {
 
 /* END & Thank you! */
 }
-
