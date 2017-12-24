@@ -78,8 +78,8 @@
   -moz-osx-font-smoothing: grayscale !important;
 }
 .doc-article-inner h1 {
-  font-size: 24px !important;
-  line-height: 24px !important;
+  font-size: 22px !important;
+  line-height: 30px !important;
   padding-bottom: 12px !important;
   text-transform: uppercase !important;
   font-weight: bold !important;
@@ -88,8 +88,8 @@
 }
 .doc-article-inner h2 {
   border-bottom: 2px solid !important;
-  font-size: 22px !important;
-  line-height: 24px !important;
+  font-size: 20px !important;
+  line-height: 28px !important;
   font-weight: bold !important;
   padding-bottom: 12px !important;
 }
