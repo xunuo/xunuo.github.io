@@ -42,6 +42,16 @@
    * Colorful code
    **/
   /**
+   * @theme Blue-Snow
+   * @author 许诺
+   * @email i@xunuo.com
+   * @date 2017.12.24
+   * @compile https://www.sassmeister.com/
+   **/
+  /**
+   * Base reset
+   **/
+  /**
    * only for lark
    **/
   /* END & Thank you! */
@@ -231,6 +241,265 @@
   background: #eff4f8 !important;
   -webkit-text-size-adjust: none !important;
 }
+.doc-article-inner .doc-article-inner * {
+  color: #657b83 !important;
+  font-family: "Lucida Bright", "monospace", "Monaco", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", "Roboto", "Lantinghei SC", "Lantinghei TC", "Microsoft YaHei", "ff-din-web-pro-1", "ff-din-web-pro-2", sans-serif !important;
+  font-size: 18px !important;
+  line-height: 1.68 !important;
+  font-style: normal !important;
+  vertical-align: baseline !important;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale !important;
+}
+.doc-article-inner .doc-article-inner {
+  background: #fff !important;
+  margin: 40px 70px !important;
+}
+.doc-article-inner .doc-article-inner {
+  /**
+   * Title
+   **/
+  /**
+   * Text
+   **/
+  /**
+   * List / Block
+   **/
+  /**
+   * Table
+   **/
+  /**
+   * Colorful code
+   **/
+  /**
+   * only for lark
+   **/
+  /* END & Thank you! */
+}
+.doc-article-inner .doc-article-inner h1, .doc-article-inner .doc-article-inner h2, .doc-article-inner .doc-article-inner h3, .doc-article-inner .doc-article-inner h4, .doc-article-inner .doc-article-inner h5, .doc-article-inner .doc-article-inner h6, .doc-article-inner .doc-article-inner p, .doc-article-inner .doc-article-inner blockquote, .doc-article-inner .doc-article-inner ol, .doc-article-inner .doc-article-inner ul, .doc-article-inner .doc-article-inner li, .doc-article-inner .doc-article-inner img {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.doc-article-inner .doc-article-inner img {
+  max-width: 100% !important;
+  -webkit-border-radius: 0.3em !important;
+  -moz-border-radius: 0.3em !important;
+  -ms-border-radius: 0.3em !important;
+  -o-border-radius: 0.3em !important;
+  border-radius: 0.3em !important;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0 1px 4px !important;
+  -moz-box-shadow: rgba(0, 0, 0, 0.15) 0 1px 4px !important;
+  box-shadow: rgba(0, 0, 0, 0.15) 0 1px 4px !important;
+  -webkit-box-sizing: border-box !important;
+  -moz-box-sizing: border-box !important;
+  box-sizing: border-box !important;
+  border: #fff 0.5em solid !important;
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+}
+.doc-article-inner .doc-article-inner h1, .doc-article-inner .doc-article-inner h2, .doc-article-inner .doc-article-inner h3, .doc-article-inner .doc-article-inner h4, .doc-article-inner .doc-article-inner h5, .doc-article-inner .doc-article-inner h6 {
+  color: #4984EF !important;
+  border-color: #4984EF !important;
+  font-weight: lighter !important;
+  text-transform: capitalize !important;
+  margin-top: 40px !important;
+  margin-bottom: 20px !important;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale !important;
+}
+.doc-article-inner .doc-article-inner h1 {
+  font-size: 22px !important;
+  line-height: 30px !important;
+  padding-bottom: 12px !important;
+  font-weight: bold !important;
+  border-bottom: 2px solid !important;
+  text-align: center !important;
+}
+.doc-article-inner .doc-article-inner h2 {
+  border-bottom: 2px solid !important;
+  font-size: 20px !important;
+  line-height: 28px !important;
+  font-weight: bold !important;
+  padding-bottom: 12px !important;
+}
+.doc-article-inner .doc-article-inner h3 {
+  font-size: 18px !important;
+  line-height: 22px !important;
+  border-left: 4px solid #4984EF !important;
+  font-weight: bold !important;
+  padding-left: 8px !important;
+  margin-left: 4px !important;
+}
+.doc-article-inner .doc-article-inner h4 {
+  font-size: 16px !important;
+  line-height: 20px !important;
+}
+.doc-article-inner .doc-article-inner h5 {
+  font-size: 16px !important;
+  line-height: 18px !important;
+}
+.doc-article-inner .doc-article-inner h6 {
+  font-size: 16px !important;
+  line-height: 18px !important;
+}
+.doc-article-inner .doc-article-inner h3, .doc-article-inner .doc-article-inner h4, .doc-article-inner .doc-article-inner h5, .doc-article-inner .doc-article-inner h6 {
+  border-bottom: none !important;
+}
+.doc-article-inner .doc-article-inner p {
+  font-weight: lighter !important;
+  margin-bottom: 24px !important;
+  line-height: 30px !important;
+  padding-left: 16px !important;
+  padding-right: 16px !important;
+}
+.doc-article-inner .doc-article-inner strong {
+  font-weight: bold !important;
+  color: #df2d00 !important;
+}
+.doc-article-inner .doc-article-inner a, .doc-article-inner .doc-article-inner a:active, .doc-article-inner .doc-article-inner a:visited {
+  color: #586e75 !important;
+}
+.doc-article-inner .doc-article-inner a:hover {
+  background-color: #eee8d5 !important;
+}
+.doc-article-inner .doc-article-inner a, .doc-article-inner .doc-article-inner a:active, .doc-article-inner .doc-article-inner a:visited {
+  color: #4984EF !important;
+}
+.doc-article-inner .doc-article-inner ul ul {
+  list-style-type: circle !important;
+}
+.doc-article-inner .doc-article-inner ul ul, .doc-article-inner .doc-article-inner ol ol, .doc-article-inner .doc-article-inner ul ol, .doc-article-inner .doc-article-inner ol ul {
+  margin-top: 10px !important;
+}
+.doc-article-inner .doc-article-inner ol, .doc-article-inner .doc-article-inner ul {
+  list-style-type: decimal !important;
+  margin-bottom: 24px !important;
+  padding-left: 34px !important;
+}
+.doc-article-inner .doc-article-inner ol li > :first-child {
+  color: #495770 !important;
+}
+.doc-article-inner .doc-article-inner li {
+  margin-bottom: 10px !important;
+}
+.doc-article-inner .doc-article-inner li p {
+  padding-left: 0 !important;
+}
+.doc-article-inner .doc-article-inner li blockquote {
+  margin-left: 0 !important;
+}
+.doc-article-inner .doc-article-inner hr {
+  background: #4984EF !important;
+  border: none !important;
+  height: 2px !important;
+  margin: 32px 0 !important;
+}
+.doc-article-inner .doc-article-inner blockquote {
+  padding: 16px 0 4px 0 !important;
+  background: #f8f8f8 !important;
+  border-left: 8px solid #e6e6e6 !important;
+  margin: 16px 0 16px 16px !important;
+}
+.doc-article-inner .doc-article-inner blockquote p {
+  padding: 0 12px !important;
+  color: #929b9a !important;
+}
+.doc-article-inner .doc-article-inner blockquote > :first-child {
+  margin-top: 0 !important;
+}
+.doc-article-inner .doc-article-inner blockquote > :last-child {
+  margin-bottom: 15px !important;
+}
+.doc-article-inner .doc-article-inner table {
+  border-collapse: collapse !important;
+  border-spacing: 0 !important;
+  margin-top: 0.8rem !important;
+  margin-bottom: 1.4rem !important;
+}
+.doc-article-inner .doc-article-inner tr {
+  background-color: #fff !important;
+  border-top: 1px solid #ccc !important;
+}
+.doc-article-inner .doc-article-inner th, .doc-article-inner .doc-article-inner td {
+  padding: 5px 14px !important;
+  border: 1px solid #ddd !important;
+  text-align: left !important;
+}
+.doc-article-inner .doc-article-inner pre {
+  margin-bottom: 18px !important;
+}
+.doc-article-inner .doc-article-inner pre, .doc-article-inner .doc-article-inner code {
+  font-family: "Monaco","Source Code Pro", "Menlo" !important;
+  color: #859900 !important;
+  background: #fafafa !important;
+}
+.doc-article-inner .doc-article-inner pre {
+  white-space: pre-wrap !important;
+  word-wrap: break-word !important;
+  padding: 10px !important;
+  margin-left: 16px !important;
+  -webkit-border-radius: 3px !important;
+  -moz-border-radius: 4px !important;
+  border: 1px solid #E2E2E2 !important;
+}
+.doc-article-inner .doc-article-inner code {
+  font-size: 16px !important;
+  display: block !important;
+  padding: 10px !important;
+  background: #eff4f8 !important;
+}
+.doc-article-inner .doc-article-inner code span {
+  font-size: 16px !important;
+}
+.doc-article-inner .doc-article-inner code.url {
+  color: #4984EF !important;
+}
+.doc-article-inner .doc-article-inner .hljs {
+  display: block !important;
+  overflow-x: auto !important;
+  padding: 0.5em !important;
+  background: #eff4f8 !important;
+  -webkit-text-size-adjust: none !important;
+}
+.doc-article-inner .doc-article-inner .hljs-comment, .doc-article-inner .doc-article-inner .diff .hljs-header, .doc-article-inner .doc-article-inner .hljs-doctype, .doc-article-inner .doc-article-inner .hljs-pi, .doc-article-inner .doc-article-inner .lisp .hljs-string {
+  color: #93a1a1 !important;
+}
+.doc-article-inner .doc-article-inner .hljs-keyword, .doc-article-inner .doc-article-inner .hljs-winutils, .doc-article-inner .doc-article-inner .method, .doc-article-inner .doc-article-inner .hljs-addition, .doc-article-inner .doc-article-inner .css .hljs-tag, .doc-article-inner .doc-article-inner .hljs-request, .doc-article-inner .doc-article-inner .hljs-status, .doc-article-inner .doc-article-inner .nginx .hljs-title {
+  color: #859900 !important;
+}
+.doc-article-inner .doc-article-inner .hljs-number, .doc-article-inner .doc-article-inner .hljs-command, .doc-article-inner .doc-article-inner .hljs-string, .doc-article-inner .doc-article-inner .hljs-tag .hljs-value, .doc-article-inner .doc-article-inner .hljs-rule .hljs-value, .doc-article-inner .doc-article-inner .hljs-doctag, .doc-article-inner .doc-article-inner .tex .hljs-formula, .doc-article-inner .doc-article-inner .hljs-regexp, .doc-article-inner .doc-article-inner .hljs-hexcolor, .doc-article-inner .doc-article-inner .hljs-link_url {
+  color: #708400 !important;
+}
+.doc-article-inner .doc-article-inner .hljs-title, .doc-article-inner .doc-article-inner .hljs-localvars, .doc-article-inner .doc-article-inner .hljs-chunk, .doc-article-inner .doc-article-inner .hljs-decorator, .doc-article-inner .doc-article-inner .hljs-built_in, .doc-article-inner .doc-article-inner .hljs-identifier, .doc-article-inner .doc-article-inner .vhdl .hljs-literal, .doc-article-inner .doc-article-inner .hljs-id, .doc-article-inner .doc-article-inner .css .hljs-function, .doc-article-inner .doc-article-inner .hljs-name {
+  color: #2aa198 !important;
+}
+.doc-article-inner .doc-article-inner .hljs-attribute, .doc-article-inner .doc-article-inner .hljs-variable, .doc-article-inner .doc-article-inner .lisp .hljs-body, .doc-article-inner .doc-article-inner .smalltalk .hljs-number, .doc-article-inner .doc-article-inner .hljs-constant, .doc-article-inner .doc-article-inner .hljs-class .hljs-title, .doc-article-inner .doc-article-inner .hljs-parent, .doc-article-inner .doc-article-inner .hljs-type, .doc-article-inner .doc-article-inner .hljs-link_reference {
+  color: #26847b !important;
+}
+.doc-article-inner .doc-article-inner .hljs-preprocessor, .doc-article-inner .doc-article-inner .hljs-preprocessor .hljs-keyword, .doc-article-inner .doc-article-inner .hljs-pragma, .doc-article-inner .doc-article-inner .hljs-shebang, .doc-article-inner .doc-article-inner .hljs-symbol, .doc-article-inner .doc-article-inner .hljs-symbol .hljs-string, .doc-article-inner .doc-article-inner .diff .hljs-change, .doc-article-inner .doc-article-inner .hljs-special, .doc-article-inner .doc-article-inner .hljs-attr_selector, .doc-article-inner .doc-article-inner .hljs-subst, .doc-article-inner .doc-article-inner .hljs-cdata, .doc-article-inner .doc-article-inner .css .hljs-pseudo, .doc-article-inner .doc-article-inner .hljs-header {
+  color: #cb4b16 !important;
+}
+.doc-article-inner .doc-article-inner .hljs-deletion, .doc-article-inner .doc-article-inner .hljs-important {
+  color: #dc322f !important;
+}
+.doc-article-inner .doc-article-inner .hljs-link_label {
+  color: #6c71c4 !important;
+}
+.doc-article-inner .doc-article-inner .tex .hljs-formula {
+  background: #d6e4f0 !important;
+}
+.doc-article-inner .doc-article-inner .typo-content .emoji {
+  border: none !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+.doc-article-inner .doc-article-inner h1.typo-title {
+  display: none;
+}
+.doc-article-inner .doc-article-inner .doc-article-inner {
+  margin: 0 !important;
+  margin-top: -40px !important;
+}
 .doc-article-inner .hljs-comment, .doc-article-inner .diff .hljs-header, .doc-article-inner .hljs-doctype, .doc-article-inner .hljs-pi, .doc-article-inner .lisp .hljs-string {
   color: #93a1a1 !important;
 }
@@ -266,7 +535,7 @@
 .doc-article-inner h1.typo-title {
   display: none;
 }
-.doc-article-inner .doc-article-inner {
+.doc-article-inner {
   margin: 0 !important;
   margin-top: -40px !important;
 }
