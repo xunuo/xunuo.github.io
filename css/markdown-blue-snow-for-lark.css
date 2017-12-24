@@ -230,7 +230,6 @@
   overflow-x: auto !important;
   padding: 0.5em !important;
   background: #eff4f8 !important;
-  color: #657b83 !important;
   -webkit-text-size-adjust: none !important;
 }
 .doc-article-inner .hljs-comment, .doc-article-inner .diff .hljs-header, .doc-article-inner .hljs-doctype, .doc-article-inner .hljs-pi, .doc-article-inner .lisp .hljs-string {
