@@ -64,8 +64,8 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 h1 {
-  font-size: 24px;
-  line-height: 24px;
+  font-size: 22px;
+  line-height: 30px;
   padding-bottom:12px;
   text-transform: uppercase;
   font-weight: bold;
@@ -75,8 +75,8 @@ h1 {
 
 h2 {
   border-bottom: 2px solid;
-  font-size: 22px;
-  line-height: 24px;
+  font-size: 20px;
+  line-height: 28px;
   font-weight: bold;
   padding-bottom:12px;
 }
