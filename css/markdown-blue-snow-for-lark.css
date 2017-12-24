@@ -168,7 +168,7 @@
   padding: 16px 0 4px 0 !important;
   background: #f8f8f8 !important;
   border-left: 8px solid #e6e6e6 !important;
-  margin-left: 16px !important;
+  margin: 16px 0 16px 16px !important;
 }
 .doc-article-inner blockquote p {
   padding: 0 12px !important;
