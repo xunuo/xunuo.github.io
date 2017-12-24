@@ -15,9 +15,7 @@
   font-size: 18px !important;
   line-height: 1.68 !important;
   font-style: normal !important;
-  vertical-align: baseline !important;
-  -webkit-font-smoothing: antialiased !important;
-  -moz-osx-font-smoothing: grayscale !important;
+  vertical-align: middle !important;
 }
 
 .doc-article-inner {
@@ -152,7 +150,6 @@
   margin-top: 10px !important;
 }
 .doc-article-inner ol, .doc-article-inner ul {
-  list-style-type: decimal !important;
   margin-bottom: 24px !important;
   padding-left: 34px !important;
 }
