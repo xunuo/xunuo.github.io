@@ -76,8 +76,6 @@
   margin-bottom: 20px !important;
   -webkit-font-smoothing: antialiased !important;
   -moz-osx-font-smoothing: grayscale !important;
-  width: 100% !important;
-  display: block !important;
 }
 .doc-article-inner h1 {
   font-size: 22px !important;
