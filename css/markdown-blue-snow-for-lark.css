@@ -158,9 +158,10 @@
   .doc-article-inner pre {
     margin-bottom: 18px !important; }
   .doc-article-inner pre, .doc-article-inner code {
-    font-family: "Source Code Pro", "Menlo","Monaco" !important;
     color: #859900 !important;
     background: #fafafa !important; }
+  .doc-article-inner pre, .doc-article-inner code, .doc-article-inner pre span, .doc-article-inner code span {
+    font-family: "Source Code Pro", "Menlo", "Monaco" !important; }
   .doc-article-inner pre {
     white-space: pre-wrap !important;
     word-wrap: break-word !important;
