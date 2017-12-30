@@ -115,11 +115,13 @@
     padding: 3px 5px !important;
     border-radius: 7px !important; }
   .doc-article-inner a, .doc-article-inner a:active, .doc-article-inner a:visited {
-    color: #586e75 !important; }
+    color: #4984EF !important;
+    text-decoration: none !important;
+    border-bottom: 1px dashed #b0c8ed !important;
+    padding: 3px 5px !important;
+    border-radius: 7px !important; }
   .doc-article-inner a:hover {
-    background-color: #eee8d5 !important; }
-  .doc-article-inner a, .doc-article-inner a:active, .doc-article-inner a:visited {
-    color: #4984EF !important; }
+    background-color: #4a8bf72b !important; }
   .doc-article-inner ul ul {
     list-style-type: circle !important; }
   .doc-article-inner ul ul, .doc-article-inner ol ol, .doc-article-inner ul ol, .doc-article-inner ol ul {
