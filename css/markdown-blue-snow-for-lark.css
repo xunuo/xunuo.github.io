@@ -212,7 +212,7 @@
     color: #6c71c4 !important; }
   .doc-article-inner .tex .hljs-formula {
     background: #d6e4f0 !important; }
-  .doc-article-inner footer {
+  .doc-article-inner .footer {
     display: block !important;
     text-align: right !important;
     padding: 20px !important;
@@ -220,8 +220,6 @@
     border-top: 2px solid #4984EF !important;
     border-bottom: 2px solid #4984EF !important;
     background: #f8fbff !important; }
-  .doc-article-inner footer br:first-child {
-    display: none !important; }
   .doc-article-inner .typo-content .emoji {
     border: none !important;
     margin-top: 0 !important;
