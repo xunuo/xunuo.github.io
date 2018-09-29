@@ -10,6 +10,7 @@
   <body>
         
       Hello VK..
+      <br />
     
       <div id="root"></div>
       
@@ -128,7 +129,12 @@
       
       VKConnect.send('VKWebAppInit', {'no_toolbar': true});
       
+      document.write('<h2>navigator.userAgent</h2>');
       document.write(navigator.userAgent);
+      
+      document.write('<h2>document.cookie</h2>');
+      document.write(document.cookie);
+      
     </script>
 
   </body>
