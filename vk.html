@@ -143,6 +143,8 @@
       
       
       
+      
+      try{
       VKConnect.subscribe(function(e){
         
         docuemnt.write(JSON.stringify(e));
@@ -154,6 +156,12 @@
       });
       
       VKConnect.send("VKWebAppGetUserInfo", {});
+        
+      }catch(err){
+      
+        docuemnt.write(JSON.stringify(err))
+        
+      }
       
     </script>
 
