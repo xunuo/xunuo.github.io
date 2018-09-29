@@ -139,7 +139,7 @@
       
       
       
-      VKConnect.subscribe((e) => {
+      VKConnect.subscribe(function(e){
         if (e.detail.type === 'VKWebAppGetUserInfoResult') {
           docuemnt.write(JSON.stringify(e))
         }
