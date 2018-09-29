@@ -135,6 +135,18 @@
       document.write('<h2>document.cookie</h2>');
       document.write(document.cookie);
       
+      
+      
+      
+      
+      VKConnect.subscribe((e) => {
+        if (e.detail.type === 'VKWebAppGetUserInfoResult') {
+          docuemnt.write(JSON.stringify(e))
+        }
+      });
+      
+      VKConnect.send("VKWebAppGetUserInfo", {});
+      
     </script>
 
   </body>
