@@ -144,9 +144,13 @@
       
       
       VKConnect.subscribe(function(e){
+        
+        docuemnt.write(JSON.stringify(e));
+        
         if (e.detail.type === 'VKWebAppGetUserInfoResult') {
           docuemnt.write(JSON.stringify(e))
         }
+        
       });
       
       VKConnect.send("VKWebAppGetUserInfo", {});
