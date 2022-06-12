@@ -1,16 +1,66 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <title>Shopify from Zero</title>
     <meta charset='utf-8'>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-  </head>
+    <!-- ↓ CSS Style -->
+    <style>
+        /* Resize style */
+        .page-width--narrow{ max-width:98% !important; }
 
-  <body>
-       
-      <!-- Restarting -->
-      Hello Shopify :)
+        /* Hide element */
+        .main-page-title, a.tutorial_link, .sk_yt_live_video_details_container{display:none !important;}
 
-  </body>
-  
+        /* layout */
+        .one-third-column-first {
+        width:15%;
+        margin-right:2%;
+        float:left;
+        }
+
+        .one-third-column {
+        width:59%;
+        margin-right:2%;
+        float:left;
+        }
+        .one-third-column-last {
+        width:22%;
+        margin-right:0;
+        float:right;
+        }
+
+        /* media */
+        @media only screen and (max-width: 600px) {
+            .one-half-column-left, .one-half-column-right,
+            .one-third-column, .one-third-column-last {
+                float:none;
+                width:100%;
+                margin-right:0;
+            }
+        }
+    </style>
+    <!-- ↑ CSS Style -->
+</head>
+
+<body>
+    <div class="one-third-column-first">
+        chat box here.
+    </div>
+
+    <!-- middle-column -->
+    <div class="one-third-column">
+        <!--
+        <a class="embedly-card" data-card-controls="0" href="https://www.twitch.tv/snow_xunuo"></a>
+        <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
+        -->
+        <div class="sk-ww-twitch-live-videos" data-embed-id="82523"></div>
+        <script src="https://widgets.sociablekit.com/twitch-live-videos/widget.js" async="" defer></script>
+    </div>
+
+    <div class="one-third-column-last">
+        Product list here.
+    </div>
+
+</body>
 </html>
