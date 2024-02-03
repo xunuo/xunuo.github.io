@@ -28,3 +28,15 @@ Unity info collect start.
 
 ## Music
 Found new song : 《Shivers》 - Ed Sheeran
+
+
+#2/2/2024
+
+## Crabbing
+a Big one!
+
+## Fishing
+got one
+
+## Car
+Nostoping appeal didn't pass. $150 has gone.
