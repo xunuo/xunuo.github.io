@@ -40,3 +40,11 @@ got one
 
 ## Car
 Nostoping appeal didn't pass. $150 has gone.
+
+#2/3/2024
+with my car
+check {bitcon} jetty and {new} jetty oppsite UWA, found peoples catch crab use scrape arround 11:00 pm
+
+#2/4/2024
+Found some scratch on our car.
+Bought a lots of things from taobao and jd.
