@@ -1,4 +1,4 @@
-#1/2/2024
+# 1/2/2024
 
 ## Crabbing
 Claremont got a crab. First Blue in Feb, Good luck!
@@ -30,7 +30,7 @@ Unity info collect start.
 Found new song : 《Shivers》 - Ed Sheeran
 
 
-#2/2/2024
+# 2/2/2024
 
 ## Crabbing
 a Big one!
@@ -41,10 +41,18 @@ got one
 ## Car
 Nostoping appeal didn't pass. $150 has gone.
 
-#2/3/2024
+# 2/3/2024
 with my car
 check {bitcon} jetty and {new} jetty oppsite UWA, found peoples catch crab use scrape arround 11:00 pm
 
-#2/4/2024
+## 2/4/2024
 Found some scratch on our car.
 Bought a lots of things from taobao and jd.
+
+# 2/12/2024
+Go to lucky bay!
+
+# 2/13/2024
+
+# 2/14/2024
+Arrived Lucky bay!
