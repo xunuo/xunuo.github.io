@@ -56,3 +56,6 @@ Go to lucky bay!
 
 # 2/14/2024
 Arrived Lucky bay!
+
+# 2/22/2024
+Got nothing on wood point jetty.
