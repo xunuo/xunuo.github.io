@@ -12,6 +12,7 @@ const WATCH_DIR = './';
 const INPUT_FILE_PATTERN = '_.txt';
 const CAPCUT_VVT_OUTPUT_FILE_NAME = '_for-capcut-vvt.txt';
 const YOUTUBE_SRT_OUTPUT_FILE_NAME = '_for-youtube-srt.txt'; // 新增这一行
+const BREAK_WORDS = '"- I know."';
 
 // Watch current directory and all subdirectories for changes
 const watcher = chokidar.watch(WATCH_DIR, {
@@ -42,7 +43,7 @@ watcher
       const transformPageTurn = (line, articleTitle) => {
         if (line.match(/^• Please turn to page \d+$/)) {
           const pageNum = line.match(/\d+/)[0];
-          return `Please turn to page ${pageNum} and find the article titled "${articleTitle}". I will continue after the countdown: Ten, Nine, Eight, Seven, Six, Five, Four, Three, Two, One, Zero.`;
+          return `Please turn to page ${pageNum} and find the article - "${articleTitle}".\n\nWill continue playing after the countdown.\n\nTen, Nine, Eight, Seven, Six, Five, Four, Three, Two, One, Zero.`;
         }
         return line;
       };
@@ -52,9 +53,6 @@ watcher
         .split(/\n+/)
         .filter(line => line.trim())
         .map(line => {
-          // Like Prompts 1: Replace '• Please turn to page XX' with countdown text
-          line = transformPageTurn(line, articleTitle);
-
           // Like Prompts 2: Enclose all capitalized proper names and phrases
           line = line.replace(/\b([A-Z][A-Z]+\s+)?([A-Z][A-Za-z]+\s+)+[A-Z][A-Za-z]+\b/g, match => {
         return line.includes(`"${match}"`) ? match : `"${match}"`;
@@ -64,8 +62,13 @@ watcher
           });
           return line;
         })
-        .map(line => line.replace(/WA/g, "W.A"))
-        .map(line => `${line}\n\n"- I know."\n`)
+        // Like Prompts 1: Replace '• Please turn to page XX' with countdown text
+        .map(line => transformPageTurn(line, articleTitle))
+        .map(line => line.replace(/(?<!“)\.(?!”)\s*/g, '.\n\n')) // Add two newlines after periods not in quotes
+        .flatMap(line => line.split('\n'))  // Split multi-line strings into separate lines
+        .filter(line => line.trim())  // Remove empty lines
+        .map(line => `${line}\n\n${BREAK_WORDS}\n`)
+        .map(line => line.replace(/WA/g, "W-A"))
         .join('\n');
 
       // Process the data for YouTube
@@ -73,6 +76,9 @@ watcher
         .split(/\n+/)
         .filter(line => line.trim())
         .map(line => transformPageTurn(line, articleTitle))
+        .map(line => line.replace(/(?<!")\.(?!")\s*/g, '.\n\n')) // Add two newlines after periods not in quotes
+        .flatMap(line => line.split('\n'))  // Split multi-line strings into separate lines
+        .filter(line => line.trim())  // Remove empty lines
         .join('\n\n');
 
       const capCutVvtOutputPath = path.join(path.dirname(filePath), CAPCUT_VVT_OUTPUT_FILE_NAME);
