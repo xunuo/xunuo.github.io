@@ -41,9 +41,9 @@ watcher
 
       // Helper function to transform page turn instruction
       const transformPageTurn = (line, articleTitle) => {
-        if (line.match(/^• Please turn to page \d+$/)) {
+        if (line.match(/^• Please turn to page \d*\s*$/)) {
           const pageNum = line.match(/\d+/)[0];
-          return `Please turn to page ${pageNum} and find the article - "${articleTitle}".\n\nWill continue playing after the countdown.\n\nTen, Nine, Eight, Seven, Six, Five, Four, Three, Two, One, Zero.`;
+          return `Please turn to page ${pageNum} and find the article "${articleTitle}".\n\nWill continue playing after the countdown.\n\nTen, Nine, Eight, Seven, Six, Five, Four, Three, Two, One, Zero.`;
         }
         return line;
       };
@@ -60,15 +60,27 @@ watcher
           line = line.replace(/\b[A-Z][a-z]{2,}\s+([A-Z][a-z]{2,}\s*)+\b(?![^"]*")/g, match => {
         return line.includes(`"${match}"`) ? match : `"${match}"`;
           });
+
           return line;
         })
         // Like Prompts 1: Replace '• Please turn to page XX' with countdown text
         .map(line => transformPageTurn(line, articleTitle))
-        .map(line => line.replace(/(?<!“)\.(?!”)\s*/g, '.\n\n')) // Add two newlines after periods not in quotes
+        // .map(line => line.replace(/(?<!")\.(?!")\s*/g, '.\n\n')) // Add two newlines after periods not in quotes
+        .map(line => line.replace(/(?<!")\.(?!")\s*/g, '.\n\n')) // Add two newlines after periods not in quotes
+        // .map(line => line.replace(/"([^"|\n]*)(?=\n*$)/g, '"$1"')) // Add closing quote if line has an opening quote but no closing quote using regex
         .flatMap(line => line.split('\n'))  // Split multi-line strings into separate lines
         .filter(line => line.trim())  // Remove empty lines
-        .map(line => `${line}\n\n${BREAK_WORDS}\n`)
-        .map(line => line.replace(/WA/g, "W-A"))
+        .map(line => {
+          // Add period if line doesn't end with punctuation
+          // if (!/[.!?"]$/.test(line.trim())) {
+          //   line = line.trim() + '.';
+          // }
+          if (!/[.]$/.test(line.trim())) {
+            line = line.trim() + '.';
+          }
+          return `${line}\n\n${BREAK_WORDS}\n`;
+        })
+        .map(line => line.replace(/WA/g, "W.A"))
         .join('\n');
 
       // Process the data for YouTube
@@ -76,7 +88,9 @@ watcher
         .split(/\n+/)
         .filter(line => line.trim())
         .map(line => transformPageTurn(line, articleTitle))
+        // .map(line => line.replace(/(?<!“)\.(?!”)\s*/g, '.\n\n')) // Add two newlines after periods not in quotes
         .map(line => line.replace(/(?<!")\.(?!")\s*/g, '.\n\n')) // Add two newlines after periods not in quotes
+        // .map(line => line.replace(/“([^”|\n]*)(?=\n*$)/g, '“$1”')) // Add closing quote if line has an opening quote but no closing quote using regex
         .flatMap(line => line.split('\n'))  // Split multi-line strings into separate lines
         .filter(line => line.trim())  // Remove empty lines
         .join('\n\n');
